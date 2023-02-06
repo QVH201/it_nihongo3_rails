@@ -1,4 +1,7 @@
-<h1>プロフィール</h1>
-<h3>メールアドレス</h3>
-<%= current_user.email %> 
+<div>
+    <h1>プロフィール</h1>
+    <h3>メールアドレス</h3>
+    <%= current_user.email %> 
+</div> 
+
 <% if current_user.avatar.attached? %>
